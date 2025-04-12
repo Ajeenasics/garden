@@ -1,3 +1,32 @@
 .navbar{
-background-color: rgb(25, 135, 84);
-}
+    background-color: rgb(25, 135, 84);
+    }
+    .navbar-brand{
+    color: white;
+    }
+    
+    .navheading{
+    color: white;
+    }
+    .navbar-nav .nav-link{
+    
+    color: white;
+    }
+    .profile-image{
+    width: 25px;
+    cursor: pointer;
+    }
+    .nav-image{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logout_button{
+        margin-right: 7px;
+        height: 40px;
+    }
+    .logout_button:hover{
+        background-color: rgb(25, 135, 84);
+        color: white;
+    }

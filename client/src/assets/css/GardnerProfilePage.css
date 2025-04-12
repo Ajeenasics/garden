@@ -1,0 +1,52 @@
+.profileview-card {
+    background-color: #f8f9fa;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    height: auto;
+    min-height: 100vh;
+  }
+  .profileview-card .card-body {
+    padding: 2rem;
+    text-align: left;
+  
+  }
+  .profileview-card .card-title{
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: center;
+      color:rgb(25, 135, 84);
+  }
+  .profileview-card .card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .card{
+  margin-top: 80px;
+      margin-bottom: 30px;
+      border-radius: 1.5rem;
+      box-shadow: 0 8rem 10rem rgba(0, 0, 0, 0.1);
+  }
+  .card-image{
+      width: 30%;
+      height: 30%;
+      object-fit: cover;
+      border-radius: 100px;
+      align-self: center;
+      margin-top: 20px;
+      
+  }
+  h6{
+      color:rgb(25, 135, 84);
+      font-weight: bold;
+      
+  }
+  h6:hover{
+      color: rgb(25, 131, 135);
+      font-weight: bold;
+  }
+  

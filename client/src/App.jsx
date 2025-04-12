@@ -7,6 +7,8 @@ import SignupPage from './pages/SignupPage'
 import ProfilePage from './pages/ProfilePage'
 import GardnerLandingpage from './pages/gardner/GardnerLandingpage'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import GardenerProfileView from './pages/gardner/GardenerProfileView'
+import GardnerEditProfile from './pages/gardner/GardnerEditProfile'
 function App() {
   return (
     <Routes>
@@ -17,6 +19,9 @@ function App() {
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/profile" element={<ProfilePage />} />
       <Route path="/gardner" element={<GardnerLandingpage/>}/>
+      <Route path="/gardnerprofileview" element={<GardenerProfileView/>}/>
+      <Route path="/gardnereditprofile" element={<GardnerEditProfile/>}/>
+
     </Routes>
   )
 }

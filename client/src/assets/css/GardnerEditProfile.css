@@ -1,0 +1,12 @@
+.form-div{
+    border-radius: 1rem;
+    border: #0000003b;
+    background-color: #fafafa00;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #0000003b;
+    
+    margin-top: 6%;
+    margin-bottom: 20px;
+    max-width: 400px
+}
