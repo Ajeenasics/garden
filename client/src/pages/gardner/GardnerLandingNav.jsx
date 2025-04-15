@@ -6,7 +6,10 @@ import "../../assets/css/GardnerLandingNav.css"
 import profile from "../../assets/userprofile.png"
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+<<<<<<< HEAD
 
+=======
+>>>>>>> dc16d8c3ac48779be8c2479407378bd5b94753bb
  function GardnerLandingNav() {
   
 
@@ -27,7 +30,11 @@ import Button from 'react-bootstrap/Button';
             <Nav.Link href="#action2">About Us</Nav.Link>
             <Nav.Link href="#action2">Chat</Nav.Link>
             <Nav.Link href="#action2">Contact Us</Nav.Link>
+<<<<<<< HEAD
             <Button className='logout_button' variant="light">Light</Button>
+=======
+            <Button variant="light">Light</Button>
+>>>>>>> dc16d8c3ac48779be8c2479407378bd5b94753bb
             <Link to={"/gardnerprofileview"} className='nav-image' ><img className='profile-image' src={profile}></img></Link>     
           </Nav>
          
