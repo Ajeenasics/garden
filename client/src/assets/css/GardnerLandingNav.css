@@ -1,5 +1,5 @@
 .navbar{
-<<<<<<< HEAD
+
 background-color: rgb(25, 135, 84);
 }
 .navbar-brand{
@@ -63,9 +63,9 @@ background: linear-gradient(90deg, rgba(250, 6, 6, 0.479) 0%, rgba(227, 42, 32, 
   .table > :not(caption) > * > * {
     padding: 1rem 0.75rem;
   }
-=======
-    background-color: rgb(25, 135, 84);
-    }
+
+    /* background-color: rgb(25, 135, 84);
+    } */
     .navbar-brand{
     color: white;
     }
@@ -95,4 +95,4 @@ background: linear-gradient(90deg, rgba(250, 6, 6, 0.479) 0%, rgba(227, 42, 32, 
         background-color: rgb(25, 135, 84);
         color: white;
     }
->>>>>>> dc16d8c3ac48779be8c2479407378bd5b94753bb
+

@@ -3,12 +3,10 @@ import GardnerLandingNav from "./GardnerLandingNav";
 import { Container, Row, Col } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-<<<<<<< HEAD
-import "../../assets/css/GardnerEditProfile.css"
-=======
-import "../../assets/css/GardnerEditProfile.css";
 
->>>>>>> dc16d8c3ac48779be8c2479407378bd5b94753bb
+import "../../assets/css/GardnerEditProfile.css"
+
+import "../../assets/css/GardnerEditProfile.css";
 
 function GardnerEditProfile() {
   return (
